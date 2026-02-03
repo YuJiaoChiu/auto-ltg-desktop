@@ -35,11 +35,6 @@ Thumbs.db
 .env
 .env.local
 
-# Electron
-frontend/public/icon.icns
-frontend/public/icon.ico
-frontend/public/icon.png
-
 # Cache
 .cache/
 *.cache
