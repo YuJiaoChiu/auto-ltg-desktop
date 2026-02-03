@@ -18,12 +18,46 @@
 
 <p align="center">
   <a href="#功能特性">功能特性</a> •
+  <a href="#下载安装">下载安装</a> •
   <a href="#技术栈">技术栈</a> •
   <a href="#安装指南">安装指南</a> •
   <a href="#使用说明">使用说明</a> •
   <a href="#跨平台支持">跨平台支持</a> •
   <a href="#开发指南">开发指南</a>
 </p>
+
+---
+
+## 📥 下载安装
+
+### 最新版本
+
+| 平台 | 下载链接 | 说明 |
+|------|---------|------|
+| **macOS** | [Auto-LTG-macOS.dmg](https://github.com/YuJiaoChiu/auto-ltg-desktop/releases/latest) | 支持 Intel & Apple Silicon |
+| **Windows** | [Auto-LTG-Windows.exe](https://github.com/YuJiaoChiu/auto-ltg-desktop/releases/latest) | Windows 10/11 安装版 |
+| **Windows (便携版)** | [Auto-LTG-Windows-Portable.exe](https://github.com/YuJiaoChiu/auto-ltg-desktop/releases/latest) | 无需安装，直接使用 |
+| **Linux** | [Auto-LTG-Linux.AppImage](https://github.com/YuJiaoChiu/auto-ltg-desktop/releases/latest) | Ubuntu/Debian 通用 |
+
+> 💡 **提示**: 如果上方链接无法访问，请前往 [Releases 页面](https://github.com/YuJiaoChiu/auto-ltg-desktop/releases) 查看最新版本。
+
+### 系统要求
+
+- **macOS**: macOS 10.14+ (Mojave 或更新版本)
+- **Windows**: Windows 10 或更新版本
+- **Linux**: Ubuntu 18.04+ 或同类发行版
+
+### 快速开始
+
+1. 下载对应平台的安装包
+2. **macOS**: 打开 `.dmg` 文件，将应用拖入 Applications 文件夹
+3. **Windows**: 运行 `.exe` 安装程序，按向导完成安装
+4. **Linux**: 赋予 AppImage 执行权限后双击运行
+
+```bash
+# Linux 用户可能需要添加执行权限
+chmod +x Auto-LTG-*.AppImage
+```
 
 ---
 
