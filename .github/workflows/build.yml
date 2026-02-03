@@ -41,7 +41,7 @@ jobs:
       - name: Build macOS app
         run: |
           cd frontend
-          npm run electron-build -- --mac
+          CI=false npm run electron-build -- --mac
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -81,7 +81,7 @@ jobs:
       - name: Build Windows app
         run: |
           cd frontend
-          npm run electron-build -- --win
+          CI=false npm run electron-build -- --win
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -122,7 +122,7 @@ jobs:
       - name: Build Linux app
         run: |
           cd frontend
-          npm run electron-build -- --linux
+          CI=false npm run electron-build -- --linux
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
