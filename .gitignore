@@ -1,0 +1,52 @@
+# Dependencies
+frontend/node_modules/
+video-toolkit-web/venv/
+
+# Build outputs
+frontend/build/
+frontend/dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Temporary files
+uploads/*
+!uploads/.gitkeep
+outputs/*
+!outputs/.gitkeep
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+
+# Electron
+frontend/public/icon.icns
+frontend/public/icon.ico
+frontend/public/icon.png
+
+# Cache
+.cache/
+*.cache
+
+# Large media files
+*.mov
+*.mp4
+*.avi
+*.mkv
+*.mov

@@ -1,0 +1,146 @@
+{
+  "version": "1.0",
+  "created_at": "2026-02-02T17:16:41.317243",
+  "records": [
+    {
+      "program": "ai_rename",
+      "count": 5,
+      "timestamp": "2026-02-02T17:17:05.891778",
+      "date": "2026-02-02"
+    },
+    {
+      "program": "compress",
+      "count": 3,
+      "timestamp": "2026-02-02T20:59:11.314927",
+      "date": "2026-02-02"
+    },
+    {
+      "program": "ai_rename",
+      "count": 13,
+      "timestamp": "2026-02-03T10:03:08.723192",
+      "date": "2026-02-03"
+    },
+    {
+      "program": "video_split",
+      "count": 2,
+      "timestamp": "2026-02-03T10:16:48.001440",
+      "date": "2026-02-03"
+    },
+    {
+      "program": "video_split",
+      "count": 2,
+      "timestamp": "2026-02-03T10:23:40.139154",
+      "date": "2026-02-03"
+    },
+    {
+      "program": "video_split",
+      "count": 4,
+      "timestamp": "2026-02-03T10:37:23.203132",
+      "date": "2026-02-03"
+    },
+    {
+      "program": "subtitles",
+      "count": 2,
+      "timestamp": "2026-02-03T11:22:55.045098",
+      "date": "2026-02-03"
+    },
+    {
+      "program": "compress",
+      "count": 1,
+      "timestamp": "2026-02-03T11:38:13.044779",
+      "date": "2026-02-03"
+    },
+    {
+      "program": "compress",
+      "count": 1,
+      "timestamp": "2026-02-03T11:39:14.965908",
+      "date": "2026-02-03"
+    },
+    {
+      "program": "compress",
+      "count": 1,
+      "timestamp": "2026-02-03T11:39:21.636372",
+      "date": "2026-02-03"
+    },
+    {
+      "program": "compress",
+      "count": 1,
+      "timestamp": "2026-02-03T12:15:22.290820",
+      "date": "2026-02-03"
+    },
+    {
+      "program": "compress",
+      "count": 1,
+      "timestamp": "2026-02-03T12:16:23.388449",
+      "date": "2026-02-03"
+    },
+    {
+      "program": "compress",
+      "count": 1,
+      "timestamp": "2026-02-03T12:16:36.601634",
+      "date": "2026-02-03"
+    },
+    {
+      "program": "compress",
+      "count": 1,
+      "timestamp": "2026-02-03T12:42:55.339849",
+      "date": "2026-02-03"
+    },
+    {
+      "program": "compress",
+      "count": 1,
+      "timestamp": "2026-02-03T12:43:04.354213",
+      "date": "2026-02-03"
+    },
+    {
+      "program": "compress",
+      "count": 1,
+      "timestamp": "2026-02-03T13:45:47.135345",
+      "date": "2026-02-03"
+    },
+    {
+      "program": "compress",
+      "count": 1,
+      "timestamp": "2026-02-03T13:46:23.101928",
+      "date": "2026-02-03"
+    },
+    {
+      "program": "add_intro",
+      "count": 3,
+      "timestamp": "2026-02-03T14:16:06.885896",
+      "date": "2026-02-03"
+    },
+    {
+      "program": "add_intro",
+      "count": 3,
+      "timestamp": "2026-02-03T14:16:54.427831",
+      "date": "2026-02-03"
+    }
+  ],
+  "daily_stats": {
+    "2026-02-02": {
+      "ai_rename": 5,
+      "video_split": 0,
+      "add_intro": 0,
+      "subtitles": 0,
+      "compress": 3,
+      "course": 0
+    },
+    "2026-02-03": {
+      "ai_rename": 13,
+      "video_split": 8,
+      "add_intro": 6,
+      "subtitles": 2,
+      "compress": 10,
+      "course": 0
+    }
+  },
+  "program_totals": {
+    "ai_rename": 18,
+    "video_split": 8,
+    "add_intro": 6,
+    "subtitles": 2,
+    "compress": 13,
+    "course": 0
+  }
+}
