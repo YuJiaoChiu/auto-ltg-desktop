@@ -129,7 +129,8 @@ const Compression = () => {
   const [stage, setStage] = useState(savedState.stage || 'config'); // config, processing, success
   const [progress, setProgress] = useState(0);
   const [currentFile, setCurrentFile] = useState('');
-  const [, setCurrentIndex] = useState(0);
+  // eslint-disable-next-line no-unused-vars
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   const [isScanning, setIsScanning] = useState(false);
   // eslint-disable-next-line no-unused-vars

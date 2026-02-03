@@ -81,7 +81,8 @@ jobs:
       - name: Build Windows app
         run: |
           cd frontend
-          CI=false npm run electron-build -- --win
+          $env:CI="false"
+          npm run electron-build -- --win
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
