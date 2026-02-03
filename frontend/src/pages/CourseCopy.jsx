@@ -156,7 +156,8 @@ const CourseCopy = () => {
       uploadedImagePath,
       generatedImage,
     });
-  }, [courseUrl, scrapedContent, dataFetched, taskId, titles, selectedCard, copyContent, uploadedImage, uploadedImagePath, generatedImage]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [courseUrl, scrapedContent, dataFetched, taskId, titles, selectedCard, copyContent, uploadedImage, uploadedImagePath, generatedImage, updatePageState]);
 
   const charCount = scrapedContent.length;
 

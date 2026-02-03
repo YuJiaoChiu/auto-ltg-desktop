@@ -129,9 +129,10 @@ const Compression = () => {
   const [stage, setStage] = useState(savedState.stage || 'config'); // config, processing, success
   const [progress, setProgress] = useState(0);
   const [currentFile, setCurrentFile] = useState('');
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [, setCurrentIndex] = useState(0);
 
   const [isScanning, setIsScanning] = useState(false);
+  // eslint-disable-next-line no-unused-vars
   const [isProcessing, setIsProcessing] = useState(false);
   const [taskIds, setTaskIds] = useState([]);
   const [backgroundTaskId, setBackgroundTaskId] = useState(null);
@@ -158,7 +159,8 @@ const Compression = () => {
       organizeOnly,
       deleteVideoOut,
     });
-  }, [folderPath, files, outputMode, compressionEnabled, preset, muteAudio, customQuality, customResolution, customFPS, format, stage, reorgMode, organizeOnly]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [folderPath, files, outputMode, compressionEnabled, preset, muteAudio, customQuality, customResolution, customFPS, format, stage, reorgMode, organizeOnly, deleteVideoOut, updatePageState]);
 
   const selectedCount = files.filter(f => f.selected).length;
   const selectedFiles = files.filter(f => f.selected);
@@ -216,7 +218,8 @@ const Compression = () => {
         }
       }
     }
-  }, [backgroundTaskId, getTask, tasks]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [backgroundTaskId, getTask, tasks, deleteVideoOut, videoOutDirs]);
 
   const handleScan = async () => {
     if (!folderPath) {

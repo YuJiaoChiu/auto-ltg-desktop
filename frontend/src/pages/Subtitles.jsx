@@ -84,7 +84,8 @@ const Subtitles = () => {
       files,
       logEntries,
     });
-  }, [folderPath, isVideoSRTMode, progress, taskId, files, logEntries]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [folderPath, isVideoSRTMode, progress, taskId, files, logEntries, updatePageState]);
 
   // 从全局任务状态恢复整理进度
   useEffect(() => {

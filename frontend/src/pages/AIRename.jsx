@@ -148,7 +148,7 @@ const AIRename = () => {
       files,
       logEntries,
     });
-  }, [folderPath, checkboxes, contextText, promptTemplate, taskId, files, logEntries]);
+  }, [folderPath, checkboxes, contextText, promptTemplate, taskId, files, logEntries, updatePageState]);
 
   const addLog = (message, highlight = false) => {
     const time = new Date().toLocaleTimeString();

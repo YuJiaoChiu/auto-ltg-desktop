@@ -11,7 +11,7 @@ import { introAnalyze, introProcess, stopTask, getTaskStatus } from '../services
 const AddIntro = () => {
   const language = useLanguage();
   const { getPageState, updatePageState } = usePageState();
-  const { registerTask, getTask, tasks } = useTaskManager();
+  const { registerTask } = useTaskManager();
 
   const t = {
     zh: {
@@ -119,7 +119,7 @@ const AddIntro = () => {
       logEntries,
     });
   }, [introPath, videoFolder, outputFolder, overwriteSource, encodingPreset, 
-      progress, progressMessage, hasAnalyzed, taskId, introInfo, fileQueue, logEntries]);
+      progress, progressMessage, hasAnalyzed, taskId, introInfo, fileQueue, logEntries, updatePageState]);
 
   // 从全局任务状态恢复处理进度 - 通过轮询后端 API
   useEffect(() => {

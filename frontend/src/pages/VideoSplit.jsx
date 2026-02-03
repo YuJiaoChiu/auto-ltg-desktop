@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import {
   Sidebar, Button, FileItem, Progress,
-  InputWithButton, Radio, DropZone
+  InputWithButton, Radio
 } from '../components';
 import { useLanguage } from '../hooks/useLanguage';
 import { usePageState } from '../contexts/PageStateContext';
@@ -137,8 +137,9 @@ const VideoSplit = () => {
       taskId,
       scanResults,
     });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [folderPath, splitMode, targetDuration, silenceRange, minSilence, longSilenceThreshold, 
-      showScanDetails, hasScanned, progress, progressMessage, taskId, scanResults]);
+      showScanDetails, hasScanned, progress, progressMessage, taskId, scanResults, updatePageState]);
 
   // 从全局任务状态恢复分割进度
   useEffect(() => {
